@@ -1,0 +1,26 @@
+@import "./var";
+
+button {
+  padding: 8px 32px;
+  border-radius: 8px;
+}
+
+.btnA {
+  border: 1px solid $AColor;
+  background-color: $AColor;
+  color: white;
+}
+.btnB {
+  border: 1px solid $BColor;
+  background-color: $BColor;
+  color: white;
+}
+.btnC {
+  background-color: white;
+  color: black;
+  border-color: $AColor;
+}
+
+.modal {
+  background-color: #63636391;
+}
