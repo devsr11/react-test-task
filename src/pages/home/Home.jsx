@@ -10,7 +10,6 @@ const Home = () => {
   let location = useLocation();
 
   useEffect(() => {
-    console.log("location ==> ", location);
     if (location.pathname === "/all-contacts") {
       setModalShow(true);
       setModalType(1);
