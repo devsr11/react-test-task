@@ -46,7 +46,6 @@ const ModalLayout = (props) => {
   }, [modalType, show, pageNumber, searchText]);
 
   useEffect(() => {
-    console.log("response ==> ", response);
     if (response?.data) {
       if (
         Object.keys({ ...response?.data?.contacts, ...contactsList }).length >=

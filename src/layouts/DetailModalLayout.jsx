@@ -4,9 +4,7 @@ import styles from "./detailModal.module.scss";
 
 const DetailModalLayout = (props) => {
   const { modalData, onHide } = props;
-  useEffect(() => {
-    console.log("modalData ==> ", modalData);
-  }, [modalData]);
+
   return (
     <Modal
       {...props}
